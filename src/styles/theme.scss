@@ -1,0 +1,327 @@
+// // Lux 4.3.1
+// // Bootswatch
+
+// //
+// // Color system
+// //
+
+// $white:    #fff !default;
+// $gray-100: #f8f9fa !default;
+// $gray-200: #f7f7f9 !default;
+// $gray-300: #eceeef !default;
+// $gray-400: #ced4da !default;
+// $gray-500: #adb5bd !default;
+// $gray-600: #919aa1 !default;
+// $gray-700: #55595c !default;
+// $gray-800: #343a40 !default;
+// $gray-900: #1a1a1a !default;
+// $black:    #000 !default;
+
+// $blue:    #007bff !default;
+// $indigo:  #6610f2 !default;
+// $purple:  #6f42c1 !default;
+// $pink:    #e83e8c !default;
+// $red:     #d9534f !default;
+// $orange:  #fd7e14 !default;
+// $yellow:  #f0ad4e !default;
+// $green:   #4BBF73 !default;
+// $teal:    #20c997 !default;
+// $cyan:    #1F9BCF !default;
+
+// $primary:       $gray-900 !default;
+// $secondary:     $white !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $white !default;
+// $dark:          $gray-800 !default;
+
+// $yiq-contrasted-threshold:  185 !default;
+
+// // Options
+
+// $enable-rounded:                              false !default;
+
+// // Body
+
+// $body-color:                $gray-700 !default;
+
+// // Components
+
+// // $border-radius:               0 !default;
+// // $border-radius-lg:            0 !default;
+// // $border-radius-sm:            0 !default;
+
+// // Fonts
+
+// $font-family-sans-serif:      "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// $font-size-base:              0.875rem !default;
+
+// $h1-font-size:                2rem !default;
+// $h2-font-size:                1.75rem !default;
+// $h3-font-size:                1.5rem !default;
+// $h4-font-size:                1.25rem !default;
+// $h5-font-size:                1rem !default;
+// $h6-font-size:                0.75rem !default;
+
+// $headings-font-weight:        600 !default;
+// $headings-color:              $gray-900 !default;
+
+// // Tables
+
+// $table-border-color:          rgba(0, 0, 0, 0.05) !default;
+
+// // Buttons + Forms
+
+// $input-btn-border-width:      0px !default;
+
+// // Buttons
+
+// $btn-line-height:             1.5rem !default;
+
+// $input-btn-padding-y:         0.75rem !default;
+// $input-btn-padding-x:         1.5rem !default;
+
+// $input-btn-padding-y-sm:      .5rem !default;
+// $input-btn-padding-x-sm:      1rem !default;
+
+// $input-btn-padding-y-lg:      2rem !default;
+// $input-btn-padding-x-lg:      2rem !default;
+
+// $btn-font-weight:             600 !default;
+
+// // Forms
+
+// $input-line-height:                     1.5 !default;
+
+// $input-bg:                              $gray-200 !default;
+// $input-disabled-bg:                     $gray-300 !default;
+
+// $input-group-addon-bg:                  $gray-300 !default;
+
+// // Navbar
+
+// $navbar-padding-y:                  1.5rem !default;
+
+// $navbar-dark-hover-color:           $white !default;
+
+// $navbar-light-color:                rgba($black,.3) !default;
+// $navbar-light-hover-color:          $gray-900 !default;
+// $navbar-light-active-color:         $gray-900 !default;
+
+// // Pagination
+
+// $pagination-border-color:           transparent !default;
+
+// $pagination-hover-border-color:     $pagination-border-color !default;
+
+// $pagination-disabled-border-color:  $pagination-border-color !default;
+
+// // Breadcrumbs
+
+// $breadcrumb-bg:                     transparent !default;
+
+
+// Slate 4.3.1
+// Bootswatch
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #999 !default;
+$gray-600: #7A8288 !default;
+$gray-700: #52575C !default;
+$gray-800: #3A3F44 !default;
+$gray-900: #272B30 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #ee5f5b !default;
+$orange:  #fd7e14 !default;
+$yellow:  #f89406 !default;
+$green:   #62c462 !default;
+$teal:    #20c997 !default;
+$cyan:    #5bc0de !default;
+
+$primary:       $gray-800 !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-900 !default;
+
+$yiq-contrasted-threshold:  170 !default;
+
+// Body
+
+$body-bg:                   $gray-900 !default;
+$body-color:                #aaa !default;
+
+// Links
+
+$link-color:                $white !default;
+
+// Fonts
+
+$font-size-base:              0.9375rem !default;
+
+// Tables
+
+$table-color:                 $white !default;
+$table-accent-bg:             rgba($white,.05) !default;
+$table-hover-bg:              rgba($white,.075) !default;
+
+$table-border-color:          rgba($black,.6) !default;
+
+$table-dark-border-color:     $table-border-color !default;
+$table-dark-color:            $white !default;
+
+// Buttons
+
+$input-btn-padding-y:         .75rem !default;
+$input-btn-padding-x:         1rem !default;
+
+// Components
+
+$border-radius:               0 !default;
+$border-radius-lg:            0 !default;
+$border-radius-sm:            0 !default;
+
+// Buttons + Forms
+
+$input-btn-border-width:      0px !default;
+
+// Forms
+$input-line-height:                     1.5 !default;
+$form-label-margin-bottom:              .2rem !default;
+
+$input-color:                           $gray-500 !default;
+
+$input-bg:                              #2E2E2E !default;
+$input-disabled-bg:                     $gray-700 !default;
+
+$input-group-addon-bg:                  $gray-300 !default;
+
+$input-focus-border-color:              #144876 !default;
+$input-focus-color:                     $gray-400 !default;
+$input-focus-width:                     0 !default;
+$input-focus-box-shadow:                0 0 0 1px #144876 !default;
+
+$btn-focus-width:             0 !default;
+$btn-focus-box-shadow:        0 0 0 1px #144876 !default;
+$btn-disabled-opacity:        .65 !default;
+$btn-active-box-shadow:       0 0 0 1px #144876 !default;
+
+// Dropdowns
+
+$dropdown-bg:                       $gray-800 !default;
+$dropdown-border-color:             rgba($black, .6) !default;
+$dropdown-divider-bg:               rgba($black,.15) !default;
+
+$dropdown-link-color:               $body-color !default;
+$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-bg:            $body-bg !default;
+
+// Navs
+
+$nav-tabs-border-color:             rgba($black, 0.6) !default;
+$nav-tabs-link-hover-border-color:  $nav-tabs-border-color !default;
+$nav-tabs-link-active-color:        $white !default;
+$nav-tabs-link-active-border-color: $nav-tabs-border-color !default;
+
+// Navbar
+
+$navbar-padding-y:                  0 !default;
+
+$navbar-dark-hover-color:           $white !default;
+
+$navbar-light-hover-color:          $gray-800 !default;
+$navbar-light-active-color:         $gray-800 !default;
+
+
+// Pagination
+
+$pagination-color:                  $white !default;
+$pagination-bg:                     transparent !default;
+$pagination-border-color:           rgba($black, 0.6) !default;
+
+$pagination-hover-color:            $white !default;
+$pagination-hover-bg:               transparent !default;
+$pagination-hover-border-color:     rgba($black, 0.6) !default;
+
+$pagination-active-bg:              transparent !default;
+$pagination-active-border-color:    rgba($black, 0.6) !default;
+
+$pagination-disabled-bg:            transparent !default;
+$pagination-disabled-border-color:  rgba($black, 0.6) !default;
+
+
+// Jumbotron
+
+$jumbotron-bg:                      darken($gray-900, 5%) !default;
+
+// Cards
+
+$card-border-color:                 rgba($black, 0.6) !default;
+$card-cap-bg:                       lighten($gray-800, 10%) !default;
+$card-bg:                           lighten($body-bg, 5%) !default;
+
+// Popovers
+
+$popover-bg:                        lighten($body-bg, 5%) !default;
+
+// Toasts
+
+$toast-background-color:            lighten($body-bg, 5%) !default;
+$toast-border-color:                rgba(0,0,0,.2) !default;
+
+$toast-header-color:                $body-color !default;
+$toast-header-background-color:     $toast-background-color !default;
+$toast-header-border-color:         $toast-border-color !default;
+
+// Modals
+
+$modal-content-bg:                  lighten($body-bg, 5%) !default;
+
+$modal-header-border-color:         rgba(0,0,0,.2) !default;
+
+// Progress bars
+
+$progress-bg:                       darken($gray-900, 5%) !default;
+$progress-bar-color:                $gray-600 !default;
+
+// List group
+
+$list-group-bg:                     lighten($body-bg, 5%) !default;
+$list-group-border-color:           rgba($black, 0.6) !default;
+
+$list-group-hover-bg:               lighten($body-bg, 10%) !default;
+$list-group-active-color:           $white !default;
+$list-group-active-bg:              $list-group-hover-bg !default;
+$list-group-active-border-color:    $list-group-border-color !default;
+
+$list-group-disabled-color:         $gray-700 !default;
+
+$list-group-action-color:           $white !default;
+
+// Breadcrumbs
+
+$breadcrumb-active-color:           $gray-500 !default;
+
+// Code
+
+$pre-color:                         inherit !default;
+

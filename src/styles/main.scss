@@ -1,0 +1,14 @@
+
+@import './theme.scss';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+
+// Distance between label and input, need override
+label {
+    margin-bottom: 0.3rem;
+    font-size: 85%;
+    font-weight: 400;
+    color: #ccc;
+}
