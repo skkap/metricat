@@ -33,7 +33,7 @@ export class MetricsScraper {
                 false,
                 undefined,
                 undefined,
-                `Could not reach the remote server.`
+                `Could not reach the remote server : '${error}'`
             )
         }
     }
