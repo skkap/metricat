@@ -140,6 +140,10 @@ export default function parseSampleLine(line) {
     if (labels) {
         ret.labels = labels;
     }
+    else
+    {
+        ret.labels = {}
+    }
     if (timestamp) {
         ret.timestamp_ms = timestamp;
     }
